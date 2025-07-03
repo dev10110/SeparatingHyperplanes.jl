@@ -3,7 +3,15 @@ uuid = "197ed399-51c8-4969-bb6f-74604dde59b7"
 authors = ["Devansh Agrawal <devansh@umich.edu> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+OSQP = "ab2f91bb-94b4-55e3-9ba0-7f65df51de79"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
+LinearAlgebra = "1.11.0"
+OSQP = "0.8.1"
+SparseArrays = "1.11.0"
 julia = "1.6.7"
 
 [extras]
