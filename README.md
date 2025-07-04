@@ -8,13 +8,25 @@
 Given two sets of points `P`, `Q`, this package exports the function 
 
 ```
-    using SeparatingHyperplanes
-    result = separating_hyerplane(P, Q)
+using SeparatingHyperplanes
 
-    status = result.status
-    a, b = result.a, result.b
+# create two 2D pointclouds
+P = rand(10, 2) 
+Q = 1.1 * ones(10, 2) + rand(10, 2)
+
+# find a separating hyperplane
+result = separating_hyperplane(P, Q)
+
+# get the results
+status = result.status
+a, b = result.a, result.b
 ```
 
-such that the hyperplane   `a z = b` separates the points, if one exists. The `status` field defines whether the points can be separated. 
+
+
+
+Such that the hyperplane   `a z = b` separates the points, if one exists. The `status` field defines whether the points can be separated. 
+
+![](docs/assets/example.svg)
 
 See the documentation for additional details. 
