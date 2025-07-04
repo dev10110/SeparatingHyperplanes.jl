@@ -1,6 +1,6 @@
 module SeparatingHyperplanes
 
-using LinearAlgebra, SparseArrays, OSQP
+using SparseArrays, OSQP, LinearAlgebra
 
 export separating_hyperplane
 
