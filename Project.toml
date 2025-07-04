@@ -1,7 +1,7 @@
 name = "SeparatingHyperplanes"
 uuid = "197ed399-51c8-4969-bb6f-74604dde59b7"
 authors = ["Devansh Agrawal <devansh@umich.edu> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
